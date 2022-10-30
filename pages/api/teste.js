@@ -7,7 +7,7 @@ async function teste(request, response) {
   const viaCepResponseJson = await viaCepResponse.json();
 
   response.json({
-    response: viaCepResponseJson.response,
+    response: viaCepResponseJson,
   });
 }
 
